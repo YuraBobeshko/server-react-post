@@ -10,6 +10,8 @@ const {
   updatePost,
 } = require('./posts')
 
+console.log('server')
+
 app.use( (req, res, next) => {
   res.set('Access-Control-Allow-Origin', 'http://localhost:3000');
   res.set('Access-Control-Allow-Headers', 'content-type')
