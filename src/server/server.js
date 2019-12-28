@@ -41,7 +41,7 @@ app.patch('/api/posts/:postId', bodyParser.json(), (req, res) => {
   res.json({ status: 'success'});
 });
 
-app.use(express.static('build'))
+// app.use(express.static('build'))
 
 app.listen(port, () => {
   console.log(`start on ${port}`)
