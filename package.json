@@ -1,0 +1,22 @@
+{
+  "name": "server-react-posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "posts.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react-post": "^1.0.3",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon ./src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
